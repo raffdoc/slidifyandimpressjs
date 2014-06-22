@@ -19,8 +19,8 @@ Created using Slidify <br><br>
   
 ## Task at hand
   
-1. Impress.js provided an **impressive** framework but creating boring presentations for classes was difficult using the style sheet. 
-2. So, attempted to create a custom one for some basic functionality by taking elements from the impress.js demo css, io2012 sample css, and some html tags.
+1. Impress.js provided an **impressive** framework
+2. Create a custom one for some basic functionality by taking elements from the _impress.js_
 3. This code can be improved upon in a significant manner.
 
 ---  x:2000 y:0 z:1000 rotx:70 roty:90
@@ -31,17 +31,17 @@ Head of iris
 
 
 ```r
-head(iris)
+head(iris[,1:2])
 ```
 
 ```
-##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-## 1          5.1         3.5          1.4         0.2  setosa
-## 2          4.9         3.0          1.4         0.2  setosa
-## 3          4.7         3.2          1.3         0.2  setosa
-## 4          4.6         3.1          1.5         0.2  setosa
-## 5          5.0         3.6          1.4         0.2  setosa
-## 6          5.4         3.9          1.7         0.4  setosa
+##   Sepal.Length Sepal.Width
+## 1          5.1         3.5
+## 2          4.9         3.0
+## 3          4.7         3.2
+## 4          4.6         3.1
+## 5          5.0         3.6
+## 6          5.4         3.9
 ```
 
 --- x:0 y:2000 z:2000 rotx:100 roty:-100 
